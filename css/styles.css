@@ -1,15 +1,16 @@
 
 img {
-    width: 250px;
+    width: 100%;
     height: auto;
-    margin-bottom:25px;
+    margin-bottom: 15px;
     border-style: dashed;
     border-color: brown;
     border-radius: 5px;
     border-width: 2px;
+    
   }
 .sidebar-left {
-    width: 315px;
+    width: 200px;
     height: 1000px;
     float: left;
     background-color: rgb(254, 255, 176);
@@ -17,10 +18,30 @@ img {
     border-style: dotted;
     border-color: brown;
     border-radius: 5px;
-    padding: 25px;
+    padding: 15px;
     margin: 10px;
+
 }
 
+.sidebar-left h2{
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.sidebar-left img{
+    width: 100%;
+    height: auto;
+    
+    border-style: dashed;
+    border-color: brown;
+    border-radius: 5px;
+    border-width: 2px;
+}
 
 .column {
     width: 300px;
@@ -34,10 +55,21 @@ img {
     
 }
 
-.column p {
+.column div {
 background-color: rgb(184, 210, 214);
 border-radius: 5px;
 padding: 15px;
+border: 1px solid #a2a9b1;
+width: 250px;
+margin: 10px, 10px, 10px;
+
+
+
+
+
+line-height: 15px;
+font-size: 12px;
+
 } 
 
 .center{
@@ -55,7 +87,21 @@ h1{
     border-style: solid;
     border-color: brown;
     border-radius: 5px;
-    border-width: 1px;
-    width: 315px;
+    border-width: .5px;
+    width: 200px;
     background-image: linear-gradient(to right, rgb(254, 255, 176), rgb(184, 210, 214));
 }
+
+h5{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+hr.solid {
+    border-top: 1px solid #bbb;
+  }
+
+  hr.solid2 {
+    border-top: 1px solid  rgb(231, 231, 203);;
+  }
+
+
