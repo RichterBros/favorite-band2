@@ -14,28 +14,20 @@ img {
     float: left;
     background-color: yellow;
     border-width: 2px;
-    border-style: solid;
+    border-style: dotted;
     border-color: brown;
     border-radius: 5px;
     padding: 25px;
     margin: 10px;
 }
 
-.sidebar-right {
-    width: 250px;
-    height: 1000px;
-    float: right;
-    background-color: yellow;
-    
-
-}
 
 .column {
     width: 300px;
     float: left;
     border-color: brown;
     border-radius: 5px;
-    border-style: solid;
+    border-style: dotted;
     border-width: 2px;
     padding:25px;
     margin: 10px;
@@ -51,6 +43,11 @@ body{
     padding: 0px;
 }
 h1{
-    text-align: left;
+    text-align: center;
     margin-left: 10px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 315px;
 }
