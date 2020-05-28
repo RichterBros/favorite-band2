@@ -2,7 +2,7 @@
 
 ## Description
 
-#### _A Site That Showcases My Favorite Band, 01-16-2020_
+#### _A Site That Showcases My Favorite Band, 05-28-2020_
 
 #### By _**Erich Richter**_
 
