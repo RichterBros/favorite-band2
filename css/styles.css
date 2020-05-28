@@ -12,7 +12,7 @@ img {
     width: 315px;
     height: 1000px;
     float: left;
-    background-color: yellow;
+    background-color: rgb(254, 255, 176);
     border-width: 2px;
     border-style: dotted;
     border-color: brown;
@@ -33,6 +33,13 @@ img {
     margin: 10px;
     
 }
+
+.column p {
+background-color: rgb(184, 210, 214);
+border-radius: 5px;
+padding: 15px;
+} 
+
 .center{
     text-align: center;
 }
@@ -50,4 +57,5 @@ h1{
     border-radius: 5px;
     border-width: 1px;
     width: 315px;
+    background-image: linear-gradient(to right, rgb(254, 255, 176), rgb(184, 210, 214));
 }
